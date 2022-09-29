@@ -7,10 +7,12 @@ import '../Courshes/Courshes.css'
 
 
 let t = 0;
+var crashTime =0;
 const Courshes = () => {
 
     const [courshes, setCourshes] = useState([]);
     const [card, setCard] = useState([]);
+    const [crash, setCrash] = useState(0);
    // console.log(courshes)
 
     useEffect (() => {
@@ -29,8 +31,18 @@ const Courshes = () => {
 
     }
 
+    const handleCrashCourseClick = (value) => {
+        
+        console.log(value);
+        //crashTime = value;
+        setCrash(value);
+        //const newValue = value;
+        
+
+    }
+
    const arr = card.map(oneCard => oneCard.time);
-   console.log(arr);
+   //console.log(arr);
    
    const timeCount = arr.reduce(myFunction, 0);
    
@@ -38,7 +50,7 @@ const Courshes = () => {
     return total + value;
   }
 
-  console.log(timeCount);
+  //console.log(timeCount);
 
     return (
         <div className='courshes-comtainer'>
@@ -66,9 +78,9 @@ const Courshes = () => {
             <div>
                 <h3>Add Bonus crash course: </h3>
                 <div className='bonous-crash-course'>
-                    <div><p>  4 Hours  </p></div>
-                    <div><p>  6  Hours</p></div>
-                    <div><p>  9  Hours</p></div>
+                    <div><p> <button onClick={() => handleCrashCourseClick(4)}>4</button>  Hours  </p></div>
+                    <div><p>   <button onClick={ () => handleCrashCourseClick(6)}>6</button> Hours</p></div>
+                    <div><p>  <button onClick={ () => handleCrashCourseClick(3)}>3</button>  Hours</p></div>
                     
                 </div>
             </div>
@@ -82,7 +94,7 @@ const Courshes = () => {
             </div>
 
             <div>
-                <h3>Bonus crash course: </h3>
+                <h3>Bonus crash course:{crash} </h3>
             </div>
 
             <div>
