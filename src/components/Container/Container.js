@@ -1,9 +1,28 @@
 import React from 'react';
+import './Container.css'
+import logo from '../../images/logo.jpg'
+import Courshes from '../Courshes/Courshes';
 
 const Container = () => {
     return (
-        <div>
-            <h1>This is container</h1>
+        <div className='container'>
+            
+            <div>
+                     <div className='header'>
+                        <img src={logo} alt="logo" />
+                        <h1>Programming-Club</h1> 
+                    </div>
+
+                    <div>
+                        <Courshes></Courshes>
+                    </div>
+            </div>
+            
+
+            <div>
+                <h1>Mubarak Hossain</h1>
+            </div>
+            
         </div>
     );
 };

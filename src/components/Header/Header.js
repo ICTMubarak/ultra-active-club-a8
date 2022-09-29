@@ -5,8 +5,14 @@ import logo from '../../images/logo.jpg'
 const Header = () => {
     return (
         <div className='header'>
-            <img src={logo} alt="logo" />
-            <h1>Programming-Club</h1>
+            <div>
+                <img src={logo} alt="logo" />
+                <h1>Programming-Club</h1>
+            </div>
+            <div>
+                <h1>Mubarak hossain</h1>
+            </div>
+
         </div>
     );
 };

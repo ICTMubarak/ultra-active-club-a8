@@ -15,18 +15,11 @@ const Courshes = () => {
 
     return (
         <div className='courshes-comtainer'>
-
-
             <div className='course'>
                      {
                         courshes.map(course => <Course key={course.id} course ={course}></Course>)
                      }
             </div>               
-      
-
-        <div className='user-info'>
-            <h1>My info</h1>
-        </div>
             
         </div>
     );
