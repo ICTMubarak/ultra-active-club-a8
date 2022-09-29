@@ -49,7 +49,7 @@ const Courshes = () => {
                      }
             </div>   
 
-            <div>
+    <div>
             <div>
             <div className='woner-info'>
                 <img src={mubarak} alt="" />
@@ -90,7 +90,7 @@ const Courshes = () => {
             </div>
           </div>
                 
-            </div>
+    </div>
             
                       
             
