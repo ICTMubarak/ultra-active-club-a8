@@ -5,11 +5,12 @@ import './Courshes.css'
 import '../Course/Course.css'
 
 
-
+let t = 0;
 const Courshes = () => {
 
     const [courshes, setCourshes] = useState([]);
     const [card, setCard] = useState([]);
+   // console.log(courshes)
 
     useEffect (() => {
          fetch('course.json')
@@ -17,11 +18,26 @@ const Courshes = () => {
         .then(data => setCourshes(data))
     } ,[])
 
+   
+
     const handleCourseClick = (props) => {
-        console.log(props);
-        const newCard = [...card, courshes]
+        
+        
+        const newCard = [...card, props]
         setCard(newCard);
+
     }
+
+   const arr = card.map(oneCard => oneCard.time);
+   console.log(arr);
+   
+   const timeCount = arr.reduce(myFunction, 0);
+   
+   function myFunction(total, value) {
+    return total + value;
+  }
+
+  console.log(timeCount);
 
     return (
         <div className='courshes-comtainer'>
@@ -40,8 +56,9 @@ const Courshes = () => {
             </div>
 
             <div>
-                <h3>Course details:{card.length}</h3>
-                <h4>Course time: </h4> 
+                <h3>Course details: </h3>
+                <h4>Course time: {timeCount} </h4>
+         
             </div>
 
             <div>
