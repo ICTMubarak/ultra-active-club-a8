@@ -6,8 +6,7 @@ import '../Course/Course.css'
 import '../Courshes/Courshes.css'
 
 
-let t = 0;
-var crashTime =0;
+
 const Courshes = () => {
 
     const [courshes, setCourshes] = useState([]);
@@ -94,7 +93,7 @@ const Courshes = () => {
             </div>
 
             <div>
-                <h3>Bonus crash course:{crash} </h3>
+                <h4>Bonus crash course: {crash} Hours</h4>
             </div>
 
             <div>
