@@ -13,6 +13,7 @@ const Container = () => {
                      <div className='header'>
                         <img src={logo} alt="logo" />
                         <h1>Programming-Club</h1> 
+                        <button><a href="/blog.html">Programming Blog</a></button>
                     </div>
 
                     <div>

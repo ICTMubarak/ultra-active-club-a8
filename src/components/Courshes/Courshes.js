@@ -3,6 +3,7 @@ import Course from '../Course/Course';
 import mubarak from '../../images/mubarak.gif'
 import './Courshes.css'
 import '../Course/Course.css'
+import '../Courshes/Courshes.css'
 
 
 let t = 0;
@@ -53,16 +54,39 @@ const Courshes = () => {
             <div className='woner-info'>
                 <img src={mubarak} alt="" />
                 <h4>Mubarak Hossain</h4>
+
+            </div>
+
+            <div className='bonous-crash-course'>
+                    <div><p>Education: Engineer</p></div>
+                    <div><p>Job: Programmer</p></div>
+                    <div><p>Complided: 3 Course</p></div>
             </div>
 
             <div>
-                <h3>Course details: </h3>
-                <h4>Course time: {timeCount} </h4>
+                <h3>Add Bonus crash course: </h3>
+                <div className='bonous-crash-course'>
+                    <div><p>  4 Hours  </p></div>
+                    <div><p>  6  Hours</p></div>
+                    <div><p>  9  Hours</p></div>
+                    
+                </div>
+            </div>
+
+            <div>
+                <br/>
+                <h2>Course Detail:</h2>
+                <h3>Selected number of Course: {card.length} </h3>
+                <h4>Your Course duration: {timeCount} Hours </h4>
          
             </div>
 
             <div>
-                <button>Activeity complidet</button>
+                <h3>Bonus crash course: </h3>
+            </div>
+
+            <div>
+                <button className='btn-style'>Activeity complidet</button>
             </div>
           </div>
                 

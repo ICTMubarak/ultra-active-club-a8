@@ -2,7 +2,7 @@
   {
     "id": "1",
     "name": "HTML",
-    "time": 20,
+    "time": 5,
     "img": "https://www.w3docs.com/uploads/media/default/0001/05/805cddb75d8fdc035886bc8d78487eef8b3845bb.png",
     "quantity": 0
   },
@@ -10,7 +10,7 @@
   {
     "id": "2",
     "name": "CSS",
-    "time": 40,
+    "time": 10,
     "img": "https://colorlib.com/cdn-cgi/image/width=1400,height=802,fit=crop,quality=80,format=auto,onerror=redirect,metadata=none/wp-content/uploads/sites/2/creative-css3-tutorials.jpg",
     "quantity": 0
   },
@@ -18,7 +18,7 @@
   {
     "id": "3",
     "name": "Bootstrup",
-    "time": 50,
+    "time": 15,
     "img": "https://www.tutorialrepublic.com/lib/images/bootstrap-5.0-illustration.png",
     "quantity": 0
   },
@@ -26,7 +26,7 @@
   {
     "id": "4",
     "name": "Tailwind",
-    "time": 35,
+    "time": 20,
     "img": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
     "quantity": 0
   },
@@ -42,7 +42,7 @@
   {
     "id": "6",
     "name": "React",
-    "time": 70,
+    "time": 30,
     "img": "https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/content/cover_image_file/cover_image/687822/retina_800x320_cover-react-context-api-4929b3703a1a7082d99b53eb1bbfc31f.png",
     "quantity": 0
   }
