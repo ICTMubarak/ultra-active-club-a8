@@ -13,11 +13,15 @@ const Courshes = () => {
         .then(data => setCourshes(data))
     } ,[])
 
+    const handleCourseClick = () => {
+        console.log('clicked');
+    }
+
     return (
         <div className='courshes-comtainer'>
             <div className='course'>
                      {
-                        courshes.map(course => <Course key={course.id} course ={course}></Course>)
+                        courshes.map(course => <Course key={course.id} course ={course} handleCourseClick={handleCourseClick}></Course>)
                      }
             </div>               
             
