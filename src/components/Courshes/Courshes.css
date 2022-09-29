@@ -1,11 +1,7 @@
 .courshes-comtainer{
-
     display: grid;
     grid-template-columns: 4fr 1fr;
-    
     gap: 20px;
-    
-    
 }
 
 .courshes-comtainer img{
@@ -19,16 +15,8 @@
     gap: 20px;
 }
 
-
 @media only screen and (max-width: 800px){
     .courshes-comtainer{
-
-        display: block;
-        
-        
-     
-        
-        
-    }
-    
+        display: block;  
+    }  
 }
