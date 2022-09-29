@@ -3,7 +3,7 @@
     "id": "1",
     "name": "HTML",
     "time": 20,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+    "img": "https://www.w3docs.com/uploads/media/default/0001/05/805cddb75d8fdc035886bc8d78487eef8b3845bb.png",
     "quantity": 0
   },
 
@@ -11,7 +11,7 @@
     "id": "2",
     "name": "CSS",
     "time": 40,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+    "img": "https://colorlib.com/cdn-cgi/image/width=1400,height=802,fit=crop,quality=80,format=auto,onerror=redirect,metadata=none/wp-content/uploads/sites/2/creative-css3-tutorials.jpg",
     "quantity": 0
   },
 
@@ -19,7 +19,7 @@
     "id": "3",
     "name": "Bootstrup",
     "time": 50,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+    "img": "https://www.tutorialrepublic.com/lib/images/bootstrap-5.0-illustration.png",
     "quantity": 0
   },
 
@@ -27,7 +27,7 @@
     "id": "4",
     "name": "Tailwind",
     "time": 35,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+    "img": "https://upload.wikimedia.org/wikipedia/commons/d/d5/Tailwind_CSS_Logo.svg",
     "quantity": 0
   },
 
@@ -35,7 +35,7 @@
     "id": "5",
     "name": "JavaScript",
     "time": 60,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+    "img": "https://www.tutorialrepublic.com/lib/images/javascript-illustration.png",
     "quantity": 0
   },
 
@@ -43,7 +43,7 @@
     "id": "6",
     "name": "React",
     "time": 70,
-    "img": "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/fbaf991a78bc4896a3e9ad7800abcec6_9366/Ultraboost_22_Shoes_Black_GZ0127_01_standard.jpg",
+    "img": "https://bs-uploads.toptal.io/blackfish-uploads/components/blog_post_page/content/cover_image_file/cover_image/687822/retina_800x320_cover-react-context-api-4929b3703a1a7082d99b53eb1bbfc31f.png",
     "quantity": 0
   }
 
